@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
 /*
-启动springboot
+启动springboot  测试冲突
  */
 @EnableAutoConfiguration
 @ComponentScan(basePackages = "com.etoak")
