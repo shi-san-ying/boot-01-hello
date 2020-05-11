@@ -4,9 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
-/*
-启动springboot  引起冲突
- */
+
+//启动springboot 解决冲突
 @EnableAutoConfiguration
 @ComponentScan(basePackages = "com.etoak")
 public class HelloApp {
